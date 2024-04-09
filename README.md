@@ -16,4 +16,10 @@ print(df.isnull().sum())
 Understanding the data types of each column is essential for data manipulation and analysis. Let’s examine the data types of each column.
 print(df.dtypes)
 "Data cleaning was performed using a lambda function to remove unwanted characters from the given dataset (IHR). 
-After completing the data cleaning process, the cleaned data was saved to a file named 'IHR.csv'."
+After completing the data cleaning process, the cleaned data was saved to a file named 'IHR.csv'.
+Then, feature engineering was performed using get_dummies(). Additionally, line plots, scatter plots, and box plots were executed using Matplotlib and Seaborn. 
+Following this, the sklearn library was utilized for model building and model testing. 
+I imported a dataset of titles and descriptions from the dataset (IHR). 
+Using seven columns, I tokenized them using NLTK and Python.
+
+
