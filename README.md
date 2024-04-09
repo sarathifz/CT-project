@@ -15,3 +15,5 @@ Checking for missing values in the dataset (IHR) is crucial as they can affect t
 print(df.isnull().sum())
 Understanding the data types of each column is essential for data manipulation and analysis. Let’s examine the data types of each column.
 print(df.dtypes)
+"Data cleaning was performed using a lambda function to remove unwanted characters from the given dataset (IHR). 
+After completing the data cleaning process, the cleaned data was saved to a file named 'IHR.csv'."
